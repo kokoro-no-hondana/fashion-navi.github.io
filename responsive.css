@@ -2,11 +2,18 @@
   .content{
     width:50%;
   }
+
+  .conteiner{
+    width:100%;
+  }
 }
 
 
 @media(max-width:640px){
   .content{
+    width:100%;
+  }
+  .conteiner{
     width:100%;
   }
 }
