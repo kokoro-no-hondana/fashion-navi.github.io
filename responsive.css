@@ -1,0 +1,12 @@
+@media(max-width:1000px){
+  .content{
+    width:50%;
+  }
+}
+
+
+@media(max-width:640px){
+  .content{
+    width:100%;
+  }
+}
