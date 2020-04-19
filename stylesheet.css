@@ -1,0 +1,160 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+}
+
+.container{
+  max-width: 1170px;
+  padding:0 15px;
+  margin:0 auto;
+}
+
+.header-list{
+  display:flex
+  text-align: center;
+}
+
+.header-list a {
+  padding:0 15px;
+  color:white
+}
+
+.header-list a:hover{
+  color: lightblue;
+  transition:0.5s;
+}
+
+header{
+  height: 75px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+  text-align: center;
+}
+
+header h1 {
+  margin :0 ;
+  color:white
+}
+
+.fa{
+  color: darkgrey;
+  padding-left:10px;
+}
+
+.top-wrapper{
+  background-image:url(back1.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height:500px;
+  opacity:0.8;
+  padding:140px 0;
+}
+
+.sentence{
+  opacity:0.8
+}
+
+.sentence h1 {
+  letter-spacing:2px;
+}
+
+.contents-wrapper{
+  text-align: center;
+  /* height:500px; */
+  background-color:#f7f7f7;
+  padding:50px 0 50px 0 ;
+}
+
+.contents-wrapper h3 {
+  margin:0;
+  font-size:22px;
+  padding-bottom:40px;
+  text-align: center;
+}
+
+.content{
+  width:25%;
+  float:left;
+}
+
+.content-icon{
+  position:relative;
+  text-align:center;
+  opacity:0.7;
+}
+
+
+.content-icon h4 {
+  position:absolute;
+  top:60px;
+  color:white;
+  width:100%;
+  font-size:20px;
+}
+
+.content p {
+  display:inline-block;
+  width:80%;
+  border-top:1px solid  #b3aeb5;
+  padding-top:10px
+}
+
+.clear{
+  clear:left;
+}
+
+.topics-wrapper{
+  height:700px;
+  padding:80px 0 80px 0;
+}
+
+.topics-wrapper h3 {
+  margin:0;
+  font-size:22px;
+  padding-bottom:40px;
+  text-align: center;
+}
+
+.topic a {
+  display:inline-block;
+  padding:70px 40px;
+  margin:0 auto;
+  float:left;
+  width:50%;
+  text-align: center;
+  border:2px solid #b3aeb5;
+}
+
+.topic a:hover{
+  position:relative;
+  top:-5px;
+  left:-5px;
+  box-shadow:5px 5px lightslategray;
+  transition:0.5s;
+}
+
+footer{
+  /* padding:50px 0 50px 0; */
+  text-align: center;
+  background-color: rgba(34, 49, 52, 0.9);
+  color:white;
+}
+
+footer a {
+  padding-top:30px;
+  display: inline-block;
+  margin-left:20px;
+  color:white;
+}
+
+footer a:hover{
+  color: lightblue;
+  transition:0.5s;
+}
